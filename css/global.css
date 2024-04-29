@@ -742,6 +742,6 @@ nav ul.active {
   }
   nav ul {
     top: 64.18px;
-    height: calc(33vh - 65.18px);
+    height: calc(24vh - 65.18px);
   }
 }
