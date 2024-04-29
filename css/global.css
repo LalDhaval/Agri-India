@@ -7,7 +7,7 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 */
 
 body{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: "Calibri", sans-serif;
   }
 
 a:hover{
@@ -651,7 +651,7 @@ html {
   font-size: 62.5%;
 }
 *:not(i) {
-  font-family: "Poppins", sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 header {
   position: fixed;
@@ -676,11 +676,11 @@ nav a {
 }
 nav a#logo {
   color: #000000;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 nav ul a {
   color: #ffffff;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 nav ul a:hover {
   border-bottom: 2px solid #ffffff;

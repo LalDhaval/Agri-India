@@ -320,6 +320,7 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
   color: #FFFFFF !important;
+  padding: 10px;
 }
 
 .testimonial-carousel .owl-dots {
