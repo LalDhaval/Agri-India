@@ -741,7 +741,7 @@ nav ul.active {
     padding: 2rem 3rem;
   }
   nav ul {
-    top: 65.18px;
-    height: calc(100vh - 65.18px);
+    top: 64.18px;
+    height: calc(33vh - 65.18px);
   }
 }
