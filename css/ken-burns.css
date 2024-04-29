@@ -166,8 +166,10 @@
     left:50%
 }
 .carousel-caption.kb_caption.kb_caption_right {
-    top: -0%;
-    bottom: 0%;
+    top: 6%;
+    left: 110px;
+    bottom: 8%;
+    z-index: 0;
 }
 .kb_caption_center{
     float:none;
