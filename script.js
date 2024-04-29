@@ -1,22 +1,13 @@
-const nav = document.querySelector(".nav"),
-  searchIcon = document.querySelector("#searchIcon"),
-  navOpenBtn = document.querySelector(".navOpenBtn"),
-  navCloseBtn = document.querySelector(".navCloseBtn");
-
-searchIcon.addEventListener("click", () => {
-  nav.classList.toggle("openSearch");
-  nav.classList.remove("openNav");
-  if (nav.classList.contains("openSearch")) {
-    return searchIcon.classList.replace("uil-search", "uil-times");
-  }
-  searchIcon.classList.replace("uil-times", "uil-search");
+let hamMenuIcon = document.getElementById("ham-menu");
+let navBar = document.getElementById("nav-bar");
+let navLinks = navBar.querySelectorAll("li");
+hamMenuIcon.addEventListener("click", () => {
+  navBar.classList.toggle("active");
+  hamMenuIcon.classList.toggle("fa-times");
 });
-
-navOpenBtn.addEventListener("click", () => {
-  nav.classList.add("openNav");
-  nav.classList.remove("openSearch");
-  searchIcon.classList.replace("uil-times", "uil-search");
-});
-navCloseBtn.addEventListener("click", () => {
-  nav.classList.remove("openNav");
+navLinks.forEach((navLinks) => {
+  navLinks.addEventListener("click", () => {
+    navBar.classList.remove("active");
+    hamMenuIcon.classList.toggle("fa-times");
+  });
 });
