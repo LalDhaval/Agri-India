@@ -146,8 +146,7 @@
  top: 27%;
  text-align: center;
  /* background: #437103ab; */
- padding-left:15px;
- padding-right:15px;
+ 
 }
 .carousel-caption {
  padding-top: 12px;
@@ -262,6 +261,26 @@
 #center .kb_caption h1 {
     padding-top: 110px;
     font-size: 15px;
+    padding-left: 50px;
+}
+}
+@media(max-width:440px){
+/* .kb_control_left,.kb_control_right{
+    border:0
+} 
+.kb_caption h3 {
+    font-size: 2.2em;
+}
+.kb_caption {
+    width: 20%;
+}
+.carousel-caption.kb_caption.kb_caption_right {
+    top: -4%;
+    bottom: inherit;
+} */
+#center .kb_caption h1 {
+    padding-top: 107px;
+    font-size: 10px;
     padding-left: 50px;
 }
 }
